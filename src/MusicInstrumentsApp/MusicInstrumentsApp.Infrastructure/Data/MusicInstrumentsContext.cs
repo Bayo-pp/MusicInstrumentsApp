@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MusicInstrumentsApp.Domain.Entities;
+using MusicInstrumentsApp.Infrastructure.EntityConfigurations;
 
 namespace MusicInstrumentsApp.Infrastructure.Data;
 public class MusicInstrumentsContext : DbContext
